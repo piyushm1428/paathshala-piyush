@@ -22,7 +22,7 @@
                 <option v-for="item in jobOptions" :value="item" >{{item}}</option>
             </select>            
             <p>Comment</p>
-            <input type="textarea" placeholder="Comment....."  class="border w-full p-3 pt-6 my-2 rounded">
+            <input type="textarea" placeholder="Comment...."  class="border w-full p-3 pt-6 my-2 rounded">
 
             <div @click="addEmployee" class="p-4 rounded bg-blue-400 max-w-sm text-white w-28  cursor-pointer" >
                 ADD
